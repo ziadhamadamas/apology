@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-cairo: "Cairo", sans-serif;
+}
+
+body {
+  background-color: #FFFDD0;
+  color: #2F4F4F;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
