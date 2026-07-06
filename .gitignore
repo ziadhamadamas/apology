@@ -1,2 +1,16 @@
-# Local Netlify folder
+# Dependencies
+node_modules
+
+# Next.js
+.next
+out
+
+# Netlify
 .netlify
+
+# Build files
+*.zip
+
+# Environment variables
+.env
+.env.local
